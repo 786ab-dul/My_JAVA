@@ -1,0 +1,22 @@
+package Java_assignment;
+
+public class Employee {
+	String id;
+	int sales;
+	char grade;
+	Employee(String id,int sales,char grade){
+		this.id=id;
+		this.sales=sales;
+		this.grade=grade;
+		
+	}
+	public String toString() {
+		return this.id+" "+this.sales+" "+this.grade;
+		
+	}
+	public static void main(String[] args) {
+		Employee e1=new Employee("101",5,'B');
+		System.out.println(e1);
+	}
+
+}

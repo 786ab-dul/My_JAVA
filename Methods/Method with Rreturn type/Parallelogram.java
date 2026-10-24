@@ -1,0 +1,16 @@
+class Parallelogram 
+{
+	static int area()
+	{
+		int b = 4;
+		int h = 6;
+		int res= b*h;
+		return res;
+	}
+	public static void main(String[] args) 
+	{
+		System.out.println("Area of Parallelogram");
+		int x = area();
+		System.out.println(x);
+	}
+}

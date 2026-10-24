@@ -1,0 +1,11 @@
+class Stringer
+{
+	static void display( String a ){
+		System.out.println(a);
+	}
+	public static void main(String[] args) 
+	{
+		String x = "EAGSGS";
+		display(x);
+	}
+}

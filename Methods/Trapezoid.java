@@ -1,0 +1,15 @@
+class Trapezoid 
+{
+	static void area(){
+		int h = 2;
+		int a = 3;
+		int b = 4;
+		double ar = ((a+b)*h) / 2;
+		System.out.println(ar);
+	}
+	public static void main(String[] args) 
+	{
+		System.out.println("Area of Trapezoid");
+		area();
+	}
+}

@@ -1,0 +1,21 @@
+package Java_assignment;
+
+public class Tv {
+	String type;
+	int cost;
+	String brand;
+	Tv(String type,int cost,String brand){
+		this.cost=cost;
+		this.brand=brand;
+		this.type=type;
+	}
+	public String toString() {
+		return this.cost+" "+this.brand+" "+this.type;
+		
+	}
+	public static void main(String[] args) {
+		Tv t1=new Tv("Smart",50000,"SAMSUNG");
+		System.out.println(t1);
+	}
+
+}

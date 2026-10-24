@@ -1,0 +1,12 @@
+class Mobile  
+{
+	public static void main(String[] args) 
+	{
+		double mob_cost = 25000.95;
+		String model_name = "ZRE";
+		String mob_color = "Black";
+		System.out.println(mob_cost);
+		System.out.println(model_name);
+		System.out.println(mob_color);
+	}
+}

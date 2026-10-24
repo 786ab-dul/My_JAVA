@@ -1,0 +1,22 @@
+class Cola1
+{
+	int f = 10;
+}
+class Chungacha extends Cola1
+{
+	int d = 10;
+}
+
+
+class Main7
+{
+	public static void main(String[] args) 
+	{
+		Cola1 c1 = new Chungacha();
+		System.out.println(c1.f);
+		
+		Chungacha c2 = (Chungacha)c1;
+		System.out.println(c2.d);
+		System.out.println(c2.f);
+	}
+}

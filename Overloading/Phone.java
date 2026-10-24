@@ -1,0 +1,26 @@
+class Phone
+{
+    static void send(double amt)
+    {
+        System.out.println("Sent sucessfuly");
+    }
+    static void send(long acc_no)
+    {
+        System.out.println("Money added");
+    }
+    static void send(double amt, long acc_no)
+    {
+        System.out.println("Sent and received acc no");
+    }
+    static void send(long acc_no, double amt)
+    {
+        System.out.println("Sent Received acc no and amount");
+    }
+    public static void main(String[] args)
+    {
+        send(35000.75);
+        send(257300010000l);
+        send(35000.75, 257300010000l);
+        send(257300010000l, 35000.75);
+    }
+}

@@ -1,0 +1,27 @@
+class Bill
+{
+    void print(double rot)
+    {
+        System.out.println("Ur Bat is on the Bill");
+    }
+    void print(String item)
+    {
+        System.out.println("class of the pizza is Bill");
+    }
+    void print(double amt, String item)
+    {
+       System.out.println("Rate and Item is on the Bill");
+    }
+    void print(String item, double amt)
+    {
+       System.out.println("Name & Rate is availble on the Bill");
+    }
+    public static void main(String[] args)
+    {
+        Bill b = new Bill();
+        b.print(370);
+        b.print("Pizza");
+        b.print(370, "Pizza");
+        b.print("Pizza", 370);
+    }
+}

@@ -1,0 +1,15 @@
+class Example_Mother 
+{
+	static int total(){
+		int amt_given = 100;
+		int amt_spent = 70;
+		int res = amt_given - amt_spent;
+		return res;
+	}
+	public static void main(String[] args) 
+	{
+		System.out.println("Main Starts");
+		int x=total();
+		System.out.println(x);
+	}
+}

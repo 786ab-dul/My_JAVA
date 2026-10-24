@@ -1,0 +1,27 @@
+class Mobile
+{
+    void click(int noCalls)
+    {
+        System.out.println("clicked on IC operator");
+    }
+    void click(String done)
+    {
+        System.out.println("clicked on done");
+    }
+    void click(int noCalls, String done)
+    {
+       System.out.println(clicked on both calls operator and done");
+    }
+    void click(String done, int noCalls)
+    {
+        System.out.println("clicked on both done and operator");
+    }
+    public static void main(String[] args)
+    {
+        Mobile m1 = new Mobile();
+        m1.click(5);
+        m1.click("ok");
+        m1.click(5, "ok");
+        m1.click("ok", 5);
+    }
+}

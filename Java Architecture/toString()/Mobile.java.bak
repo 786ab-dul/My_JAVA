@@ -1,0 +1,19 @@
+
+
+public class Mobile {
+	int cost;
+	String name;
+	String colour;
+	Mobile(int cost,String name,String colour){
+		this.cost=cost;
+		this.name=name;
+		this.colour=colour;
+	}
+	public String toString() {
+		return this.cost+" "+this.name+" "+this.colour;
+	}
+	public static void main(String[] args) {
+		Mobile m1=new Mobile(25000,"realme","pink") ;
+			System.out.println(m1);
+		}
+	}
